@@ -1,0 +1,38 @@
+[Eagle]
+Version="08 03 02"
+Platform="Mac OS X"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:466015"
+UsedLibraryUrn="urn:adsk.eagle:library:473707"
+UsedLibraryUrn="urn:adsk.eagle:library:538927"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/Atmel_By_element14_Batch_1-00.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/GeekAmmo.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/LilyPad-Wearables.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Boards.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Capacitors.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Connectors.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Displays.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-LED.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Passives.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-PowerIC.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-RF.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Resistors.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Retired.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/SparkFun-Sensors.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/User-Submitted.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/Libs/adafruit.lbr"
+UsedLibrary="/Users/diegoaguilera/Projects/beerFace/PCB/lib/adcLib.lbr"
+UsedLibrary="/Users/diegoaguilera/Documents/eagle/LEDRing/HW/LEDRingLib.lbr"
+
+[Desktop]
+Screen="1280 800"
