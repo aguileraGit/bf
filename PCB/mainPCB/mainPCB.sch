@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3400,7 +3400,6 @@ Standard decoupling cap</description>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U13" library="lib" deviceset="SFH615A-07" device=""/>
 <part name="R39" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="47"/>
@@ -3450,13 +3449,14 @@ Standard decoupling cap</description>
 <description>RPi/ADC</description>
 <plain>
 <text x="190.5" y="78.74" size="1.778" layer="91">Recommended: CAT24C256WI-GT3</text>
-<text x="185.42" y="203.2" size="1.778" layer="91">RPi Recommendations (Power):
+<text x="167.64" y="175.26" size="1.778" layer="91">RPi Recommendations (Power):
 https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
-<text x="104.14" y="193.04" size="1.778" layer="91">Still to do...
-- Caps
-- Verify ADC w/ flow sensor
-
-</text>
+<text x="101.6" y="40.64" size="1.778" layer="91">G5Q </text>
+<text x="81.28" y="12.7" size="1.778" layer="91">Fuse</text>
+<text x="139.7" y="81.28" size="1.778" layer="91">Protection:
+- in front of ADC (TVS)
+- on 12V Line @ fuse (TVS)
+- Fuse on 12V line</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="99.06" y="93.98"/>
@@ -3508,7 +3508,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="C7" gate="G$1" x="33.02" y="63.5"/>
 <instance part="C8" gate="G$1" x="33.02" y="40.64"/>
 <instance part="C9" gate="G$1" x="33.02" y="17.78"/>
-<instance part="D5" gate="G$1" x="83.82" y="17.78"/>
 <instance part="C10" gate="G$1" x="147.32" y="154.94"/>
 <instance part="C11" gate="G$1" x="132.08" y="154.94"/>
 <instance part="C12" gate="G$1" x="157.48" y="121.92"/>
@@ -4148,18 +4147,11 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <label x="33.02" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="CON1" gate="A" pin="PIN4"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="73.66" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="12V" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="86.36" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 <label x="93.98" y="17.78" size="1.778" layer="95"/>
+<pinref part="CON1" gate="A" pin="PIN4"/>
+<wire x1="73.66" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_RPI" class="3">
@@ -4228,7 +4220,7 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <sheet>
 <description>Relays 1-2</description>
 <plain>
-<text x="96.52" y="129.54" size="1.778" layer="91">Update Footprint!</text>
+<text x="119.38" y="170.18" size="1.778" layer="91">TVS Diode</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="53.34" y="152.4"/>
