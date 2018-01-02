@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -141,7 +141,7 @@
 <libraries>
 <library name="lib" urn="urn:adsk.eagle:library:473707">
 <packages>
-<package name="SFH615A-07" urn="urn:adsk.eagle:footprint:473709/1" library_version="1" library_locally_modified="yes">
+<package name="SFH615A-07" urn="urn:adsk.eagle:footprint:473709/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;Vishay Optocoupler SFH615A-007&lt;/b&gt;&lt;br&gt;
 &lt;a href="http://www.vishay.com/docs/83433/sfh615a.pdf"&gt;Data sheet&lt;/a&gt;</description>
 <smd name="P$1" x="-4.765" y="1.27" dx="1.52" dy="1.78" layer="1" roundness="25"/>
@@ -154,17 +154,18 @@
 <wire x1="3.25" y1="2.54" x2="-3.25" y2="2.54" width="0.127" layer="21"/>
 <text x="-3.28" y="3.21" size="1.27" layer="25">&gt;Name</text>
 <text x="-3.28" y="-4.28" size="1.27" layer="26">&gt;Value</text>
+<circle x="-4.064" y="3.302" radius="0.381" width="0" layer="21"/>
 </package>
-<package name="BC817" urn="urn:adsk.eagle:footprint:473711/1" library_version="1" library_locally_modified="yes">
+<package name="BC817" urn="urn:adsk.eagle:footprint:473711/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;NPN Transistor BC817&lt;/b&gt;&lt;br&gt;
 &lt;a href="https://www.diodes.com/assets/Datasheets/ds30575.pdf"&gt;Data sheet&lt;/a&gt;</description>
-<smd name="P$1" x="0" y="0.95" dx="0.7" dy="0.9" layer="1"/>
-<smd name="P$2" x="-0.65" y="-0.95" dx="0.7" dy="0.9" layer="1"/>
-<smd name="P$3" x="0.65" y="-0.95" dx="0.7" dy="0.9" layer="1"/>
-<wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.127" layer="21"/>
-<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-0.675" x2="-1.1" y2="-0.675" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<smd name="P$2" x="-1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<smd name="P$3" x="1.025" y="-0.9958" dx="0.6116" dy="1.626" layer="1"/>
+<wire x1="-1.4478" y1="0.6604" x2="1.4478" y2="0.6604" width="0.127" layer="21"/>
+<wire x1="1.4478" y1="0.6604" x2="1.4478" y2="-0.6604" width="0.127" layer="21"/>
+<wire x1="1.4478" y1="-0.6604" x2="-1.4478" y2="-0.6604" width="0.127" layer="21"/>
+<wire x1="-1.4478" y1="-0.6604" x2="-1.4478" y2="0.6604" width="0.127" layer="21"/>
 <text x="-1.1" y="1.7" size="1.27" layer="25">&gt;Name</text>
 <text x="-1.1" y="-2.8" size="1.27" layer="25">&gt;Value</text>
 </package>
@@ -234,8 +235,8 @@ Data sheet</description>
 <symbol name="ALQ105" urn="urn:adsk.eagle:symbol:473712/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;ALQ105 Solenoid&lt;/b&gt;&lt;br&gt;
 &lt;a href="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf"&gt;Data sheet&lt;/a&gt;</description>
-<pin name="COM+" x="-5.08" y="10.16" length="short" rot="R270"/>
-<pin name="COM-" x="-5.08" y="-12.7" length="short" rot="R90"/>
+<pin name="COM+" x="-5.08" y="-12.7" length="short" rot="R90"/>
+<pin name="COM-" x="-5.08" y="10.16" length="short" rot="R270"/>
 <pin name="COM" x="0" y="10.16" length="short" rot="R270"/>
 <pin name="NO" x="5.08" y="10.16" length="short" rot="R270"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
@@ -1209,7 +1210,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="73.66" y="71.12" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="COM-"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="66.04" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <junction x="73.66" y="68.58"/>
 </segment>
@@ -1221,7 +1222,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="73.66" y1="48.26" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="COM+"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="43.18" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="66.04" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <junction x="73.66" y="40.64"/>
 </segment>
