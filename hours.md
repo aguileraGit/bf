@@ -1,5 +1,5 @@
 
-
+#PCB Design
 ~6 before 16 Sep
 16 Sep 3hr
 17 Sep 0.5
@@ -11,3 +11,5 @@
 24 Sep 0.5
 29 Sep 1.5
 30 Sep 1.5
+
+#Troubleshooting

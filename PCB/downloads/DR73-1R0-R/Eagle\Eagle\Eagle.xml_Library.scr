@@ -1,0 +1,82 @@
+# Created by Ultra Librarian Gold 8.2.139 Copyright © 1999-2017
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'DR73.pac';
+Layer 1;
+Smd '1' 98 128 -0 R0 (-118 0);
+Layer 1;
+Smd '2' 98 128 -0 R0 (118 0);
+Layer 1;
+Layer 21;
+Wire 6 (-155 -155) (155 -155);
+Wire 6 (155 -155) (155 -77);
+Wire 6 (155 155) (-155 155);
+Wire 6 (-155 155) (-155 77);
+Wire 6 (-155 -77) (-155 -155);
+Wire 6 (155 77) (155 155);
+Layer 51;
+Wire 6 (-150 -150) (150 -150);
+Wire 6 (150 -150) (150 150);
+Wire 6 (150 150) (-150 150);
+Wire 6 (-150 150) (-150 -150);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'Inductor1.sym';
+Layer 94;
+Pin '1' Pas None Short R0 Off 0 (0 0)
+Pin '2' Pas None Short R0 Off 0 (0 -400)
+Wire 8 (100 -200) (150 -200);
+Wire 8 (100 -300) (150 -300);
+Wire 20 (145 -50) (150 -50);
+Wire 8 (100 -400) (150 -400);
+Wire 8 (100 -100) (150 -100);
+Wire 8 (250 0) (250 -400);
+Wire 8 (225 0) (225 -400);
+Wire 8 (100 0) (150 0);
+Wire 6 (150 -200) -180 (150 -300);
+Wire 6 (150 -300) -180 (150 -400);
+Wire 6 (150 0) -180 (150 -100);
+Wire 6 (150 -100) -180 (150 -200);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Wire 6 (150 -40) -180 (150 -60);
+Wire 6 (150 -60) -180 (150 -40);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (300 -243);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (300 -118);
+
+Edit 'DR73-1R0-R.dev';
+Prefix 'L';
+Description '';
+Value Off;
+Add Inductor1 'A' Next  0 (0 0);
+Package 'DR73';
+Technology '';
+Attribute Manufacturer_Part_Number 'DR731R0R';
+Attribute Vendor 'Cooper Bussmann';
+Connect 'A.1' '1';
+Connect 'A.2' '2';

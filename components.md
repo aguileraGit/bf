@@ -35,5 +35,7 @@ LT Spice: http://cds.linear.com/docs/en/software-and-simulation/LTspiceShortcuts
 - 255-3565-ND
 https://www.vishay.com/optocouplers/related/#pspzip
 
-#### Relay
+#### Transistor
 BC817-16WDICT-ND
+
+#### Transistor
