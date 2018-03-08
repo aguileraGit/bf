@@ -3921,8 +3921,8 @@ Standard decoupling cap</description>
 </part>
 <part name="L1" library="DR73-1R0-R" deviceset="DR73-1R0-R" device=""/>
 <part name="U9" library="S24SE05004PDFA" deviceset="S24SE05004PDFA" device=""/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
+<part name="TP_ON/OFF" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
+<part name="TP_TRIM" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
 </parts>
 <sheets>
 <sheet>
@@ -4115,10 +4115,10 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <attribute name="NAME" x="317.9572" y="116.84" size="1.778" layer="95" ratio="10" rot="SR90"/>
 </instance>
 <instance part="U9" gate="G$1" x="279.4" y="104.14" rot="MR0"/>
-<instance part="TP1" gate="G$1" x="307.34" y="88.9" smashed="yes">
+<instance part="TP_ON/OFF" gate="G$1" x="307.34" y="88.9" smashed="yes">
 <attribute name="NAME" x="307.34" y="86.36" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="304.8" y="83.82" smashed="yes">
+<instance part="TP_TRIM" gate="G$1" x="304.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="304.8" y="81.28" size="1.778" layer="95"/>
 </instance>
 </instances>
@@ -4979,7 +4979,7 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <pinref part="U9" gate="G$1" pin="ON/OFF"/>
 <wire x1="302.26" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="101.6" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="TP_ON/OFF" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -4987,7 +4987,7 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <pinref part="U9" gate="G$1" pin="TRIM"/>
 <wire x1="302.26" y1="99.06" x2="304.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="99.06" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<pinref part="TP_TRIM" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

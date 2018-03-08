@@ -3415,10 +3415,10 @@ Standard decoupling cap</description>
 <wire x1="5.25" y1="4.25" x2="5.25" y2="-4.55" width="0.05" layer="39"/>
 <wire x1="5.25" y1="-4.55" x2="-5.25" y2="-4.55" width="0.05" layer="39"/>
 <wire x1="-5.25" y1="-4.55" x2="-5.25" y2="4.25" width="0.05" layer="39"/>
-<text x="-5.094890625" y="5.094890625" size="1.27373125" layer="25">NAME</text>
-<text x="-5.097009375" y="-6.371259375" size="1.27425" layer="27">VALUE</text>
-<pad name="1" x="-2.5" y="0" drill="1.3" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="1.3"/>
+<text x="-5.094890625" y="5.094890625" size="1.27373125" layer="25">&gt;NAME</text>
+<text x="-5.097009375" y="-6.371259375" size="1.27425" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.5" y="0" drill="1.3" diameter="2.54" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.3" diameter="2.54"/>
 </package>
 </packages>
 <symbols>
@@ -4063,7 +4063,10 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="TP_TRIM" gate="G$1" x="304.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="304.8" y="81.28" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="86.36" y="17.78" rot="R180"/>
+<instance part="J1" gate="G$1" x="86.36" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.905709375" y="12.05213125" size="1.272859375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="88.908159375" y="25.42448125" size="1.27408125" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>

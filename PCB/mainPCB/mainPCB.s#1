@@ -4835,7 +4835,7 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <label x="335.28" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5V_RPI" class="3">
+<net name="5V_RPI" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
@@ -4931,7 +4931,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <sheet>
 <description>Relays 1-2</description>
 <plain>
-<text x="119.38" y="170.18" size="1.778" layer="91">TVS Diode</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="53.34" y="152.4">

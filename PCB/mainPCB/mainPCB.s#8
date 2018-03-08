@@ -4111,8 +4111,8 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <attribute name="POPULATE" x="101.6" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="A" x="320.04" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="321.1322" y="116.84" size="1.778" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="317.9572" y="116.84" size="1.778" layer="95" ratio="10" rot="SR90"/>
+<attribute name="VALUE" x="314.96" y="117.9322" size="1.778" layer="96" ratio="10" rot="SR180" align="bottom-right"/>
+<attribute name="NAME" x="314.96" y="119.8372" size="1.778" layer="95" ratio="10" rot="SR180" align="bottom-right"/>
 </instance>
 <instance part="U9" gate="G$1" x="279.4" y="104.14" rot="MR0"/>
 <instance part="TP_ON/OFF" gate="G$1" x="307.34" y="88.9" smashed="yes">

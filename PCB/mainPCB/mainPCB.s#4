@@ -3878,9 +3878,10 @@ Standard decoupling cap</description>
 <description>RPi/ADC</description>
 <plain>
 <text x="190.5" y="78.74" size="1.778" layer="91">Recommended: CAT24C256WI-GT3</text>
-<text x="185.42" y="180.34" size="1.778" layer="91">RPi Recommendations (Power):
+<text x="185.42" y="180.34" size="1.778" layer="97">RPi Recommendations (Power):
 https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
-<text x="185.42" y="175.26" size="1.778" layer="91">Possible relay replacement G5Q</text>
+<text x="185.42" y="175.26" size="1.778" layer="97">Possible relay replacement G5Q</text>
+<text x="259.08" y="119.38" size="1.778" layer="97">Leave ON/OFF floating for P version</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="121.92" y="81.28">
@@ -4062,7 +4063,10 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="TP_TRIM" gate="G$1" x="304.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="304.8" y="81.28" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="86.36" y="17.78" rot="R180"/>
+<instance part="J1" gate="G$1" x="86.36" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.905709375" y="12.05213125" size="1.272859375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="88.908159375" y="25.42448125" size="1.27408125" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>

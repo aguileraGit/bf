@@ -205,86 +205,6 @@
 <text x="-7.3" y="3.1" size="1.27" layer="21">&gt;Name</text>
 <text x="-7.3" y="-4.2" size="1.27" layer="21">&gt;Value</text>
 </package>
-<package name="1776244-4" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;TE 1776244-4&lt;/b&gt;&lt;br&gt;
-&lt;a href="http://www.te.com/usa-en/product-1776244-4.html"&gt;Data sheet&lt;/a&gt;</description>
-<wire x1="-10.58" y1="2.4" x2="-10.58" y2="3.4" width="0.005" layer="21"/>
-<wire x1="-10" y1="4.2" x2="-10" y2="3.4" width="0.005" layer="21"/>
-<wire x1="-10" y1="3.4" x2="-10" y2="2.47" width="0.005" layer="21"/>
-<wire x1="-10" y1="2.47" x2="-10" y2="2.4" width="0.005" layer="21"/>
-<wire x1="-10" y1="2.4" x2="-10" y2="-1.075" width="0.005" layer="21"/>
-<wire x1="-10" y1="-1.075" x2="-10" y2="-2.125" width="0.005" layer="21"/>
-<wire x1="-10" y1="-2.125" x2="-10" y2="-2.56" width="0.005" layer="21"/>
-<wire x1="-10" y1="-2.56" x2="-10" y2="-3.3" width="0.005" layer="21"/>
-<wire x1="-9.4" y1="-1.075" x2="-9.4" y2="-2.125" width="0.005" layer="21"/>
-<wire x1="-7.85" y1="-1" x2="-7.85" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-7.85" y1="0.35" x2="-7.85" y2="1" width="0.005" layer="21"/>
-<wire x1="-7.15" y1="1" x2="-7.15" y2="0.35" width="0.005" layer="21"/>
-<wire x1="-7.15" y1="-0.35" x2="-7.15" y2="-1" width="0.005" layer="21"/>
-<wire x1="-10" y1="-3.3" x2="10" y2="-3.3" width="0.005" layer="21"/>
-<wire x1="-10" y1="-2.56" x2="10" y2="-2.56" width="0.005" layer="21"/>
-<wire x1="-2.85" y1="-1" x2="-2.85" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-2.85" y1="0.35" x2="-2.85" y2="1" width="0.005" layer="21"/>
-<wire x1="-2.15" y1="1" x2="-2.15" y2="0.35" width="0.005" layer="21"/>
-<wire x1="-2.15" y1="-0.35" x2="-2.15" y2="-1" width="0.005" layer="21"/>
-<wire x1="-10" y1="-2.125" x2="-9.4" y2="-2.125" width="0.005" layer="21"/>
-<wire x1="10" y1="-2.1" x2="10.58" y2="-2.1" width="0.005" layer="21"/>
-<wire x1="10" y1="-1.1" x2="10.58" y2="-1.1" width="0.005" layer="21"/>
-<wire x1="-10" y1="-1.075" x2="-9.4" y2="-1.075" width="0.005" layer="21"/>
-<wire x1="-7.85" y1="-1" x2="-7.15" y2="-1" width="0.005" layer="21"/>
-<wire x1="-2.85" y1="-1" x2="-2.15" y2="-1" width="0.005" layer="21"/>
-<wire x1="2.15" y1="-1" x2="2.85" y2="-1" width="0.005" layer="21"/>
-<wire x1="7.15" y1="-1" x2="7.85" y2="-1" width="0.005" layer="21"/>
-<wire x1="9.061240625" y1="-0.35" x2="7.85" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="7.15" y1="-0.35" x2="5.93875" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="4.06125" y1="-0.35" x2="2.85" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="2.15" y1="-0.35" x2="0.93875" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-0.93875" y1="-0.35" x2="-2.15" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-2.85" y1="-0.35" x2="-4.06125" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-5.93875" y1="-0.35" x2="-7.15" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-7.85" y1="-0.35" x2="-9.06125" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="-9.06125" y1="0.35" x2="-7.85" y2="0.35" width="0.005" layer="21"/>
-<wire x1="-7.15" y1="0.35" x2="-5.93875" y2="0.35" width="0.005" layer="21"/>
-<wire x1="-4.06125" y1="0.35" x2="-2.85" y2="0.35" width="0.005" layer="21"/>
-<wire x1="-2.15" y1="0.35" x2="-0.93875" y2="0.35" width="0.005" layer="21"/>
-<wire x1="0.93875" y1="0.35" x2="2.15" y2="0.35" width="0.005" layer="21"/>
-<wire x1="2.85" y1="0.35" x2="4.06125" y2="0.35" width="0.005" layer="21"/>
-<wire x1="5.93875" y1="0.35" x2="7.15" y2="0.35" width="0.005" layer="21"/>
-<wire x1="7.85" y1="0.35" x2="9.061240625" y2="0.35" width="0.005" layer="21"/>
-<wire x1="7.85" y1="1" x2="7.15" y2="1" width="0.005" layer="21"/>
-<wire x1="2.85" y1="1" x2="2.15" y2="1" width="0.005" layer="21"/>
-<wire x1="-2.15" y1="1" x2="-2.85" y2="1" width="0.005" layer="21"/>
-<wire x1="-7.15" y1="1" x2="-7.85" y2="1" width="0.005" layer="21"/>
-<wire x1="2.15" y1="-1" x2="2.15" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="2.15" y1="0.35" x2="2.15" y2="1" width="0.005" layer="21"/>
-<wire x1="-10" y1="2.4" x2="-10.58" y2="2.4" width="0.005" layer="21"/>
-<wire x1="-10" y1="2.47" x2="10" y2="2.47" width="0.005" layer="21"/>
-<wire x1="2.85" y1="1" x2="2.85" y2="0.35" width="0.005" layer="21"/>
-<wire x1="2.85" y1="-0.35" x2="2.85" y2="-1" width="0.005" layer="21"/>
-<wire x1="-10" y1="3.4" x2="-10.58" y2="3.4" width="0.005" layer="21"/>
-<wire x1="-10" y1="4.2" x2="10" y2="4.2" width="0.005" layer="21"/>
-<wire x1="7.15" y1="-1" x2="7.15" y2="-0.35" width="0.005" layer="21"/>
-<wire x1="7.15" y1="0.35" x2="7.15" y2="1" width="0.005" layer="21"/>
-<wire x1="7.85" y1="1" x2="7.85" y2="0.35" width="0.005" layer="21"/>
-<wire x1="7.85" y1="-0.35" x2="7.85" y2="-1" width="0.005" layer="21"/>
-<wire x1="10" y1="4.2" x2="10" y2="-1.1" width="0.005" layer="21"/>
-<wire x1="10" y1="-2.1" x2="10" y2="-3.3" width="0.005" layer="21"/>
-<wire x1="10.58" y1="-1.1" x2="10.58" y2="-2.1" width="0.005" layer="21"/>
-<circle x="7.5" y="0" radius="1.75" width="0.005" layer="21"/>
-<circle x="2.5" y="0" radius="1.75" width="0.005" layer="21"/>
-<circle x="-2.5" y="0" radius="1.75" width="0.005" layer="21"/>
-<circle x="-7.5" y="0" radius="1.75" width="0.005" layer="21"/>
-<circle x="-7.5" y="0" radius="1.6" width="0.005" layer="21"/>
-<circle x="-2.5" y="0" radius="1.6" width="0.005" layer="21"/>
-<circle x="2.5" y="0" radius="1.6" width="0.005" layer="21"/>
-<circle x="7.5" y="0" radius="1.6" width="0.005" layer="21"/>
-<pad name="1" x="-7.5" y="0" drill="1.3" diameter="2.6"/>
-<pad name="2" x="-2.5" y="0" drill="1.3" diameter="2.6"/>
-<pad name="3" x="2.5" y="0" drill="1.3" diameter="2.6"/>
-<pad name="4" x="7.5" y="0" drill="1.3" diameter="2.6"/>
-<text x="-10.16" y="6.35" size="1.27" layer="25" font="vector">&gt;Name</text>
-<text x="-10.16" y="-6.35" size="1.27" layer="27" font="vector">&gt;Value</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="SFH615A-07" urn="urn:adsk.eagle:package:473718/1" type="box" library_version="1" library_locally_modified="yes">
@@ -360,17 +280,6 @@ Data sheet</description>
 <wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-</symbol>
-<symbol name="1776244-4" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;TE 1776244-4&lt;/b&gt;&lt;br&gt;
-&lt;a href="http://www.te.com/usa-en/product-1776244-4.html"&gt;Data sheet&lt;/a&gt;</description>
-<pin name="PIN1" x="-2.54" y="5.08" length="short"/>
-<pin name="PIN2" x="-2.54" y="2.54" length="short"/>
-<pin name="PIN3" x="-2.54" y="0" length="short"/>
-<pin name="PIN4" x="-2.54" y="-2.54" length="short"/>
-<rectangle x1="0" y1="-3.81" x2="1.27" y2="6.35" layer="94"/>
-<text x="-2.54" y="7.62" size="1.27" layer="95" font="vector">&gt;Name</text>
-<text x="-2.54" y="-6.35" size="1.27" layer="96" font="vector">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -457,26 +366,6 @@ Data sheet</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:473721/1"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1776244-4" prefix="CON" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;TE 1776244-4&lt;/b&gt;&lt;br&gt;
-&lt;a href="http://www.te.com/usa-en/product-1776244-4.html"&gt;Data sheet&lt;/a&gt;</description>
-<gates>
-<gate name="A" symbol="1776244-4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1776244-4">
-<connects>
-<connect gate="A" pin="PIN1" pad="1"/>
-<connect gate="A" pin="PIN2" pad="2"/>
-<connect gate="A" pin="PIN3" pad="3"/>
-<connect gate="A" pin="PIN4" pad="4"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3509,6 +3398,68 @@ Standard decoupling cap</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="1935161">
+<packages>
+<package name="PHOENIX_1935161">
+<wire x1="-5" y1="4" x2="5" y2="4" width="0.127" layer="21"/>
+<wire x1="5" y1="4" x2="5" y2="-4.3" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.3" x2="-5" y2="-4.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4.3" x2="-5" y2="4" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4.3" x2="-5" y2="4" width="0.127" layer="51"/>
+<wire x1="-5" y1="4" x2="5" y2="4" width="0.127" layer="51"/>
+<wire x1="5" y1="4" x2="5" y2="-4.3" width="0.127" layer="51"/>
+<wire x1="5" y1="-4.3" x2="-5" y2="-4.3" width="0.127" layer="51"/>
+<circle x="-3.8" y="1.5" radius="0.14" width="0.28" layer="21"/>
+<circle x="-3.8" y="1.5" radius="0.14" width="0.28" layer="51"/>
+<wire x1="-5.25" y1="4.25" x2="5.25" y2="4.25" width="0.05" layer="39"/>
+<wire x1="5.25" y1="4.25" x2="5.25" y2="-4.55" width="0.05" layer="39"/>
+<wire x1="5.25" y1="-4.55" x2="-5.25" y2="-4.55" width="0.05" layer="39"/>
+<wire x1="-5.25" y1="-4.55" x2="-5.25" y2="4.25" width="0.05" layer="39"/>
+<text x="-5.094890625" y="5.094890625" size="1.27373125" layer="25">NAME</text>
+<text x="-5.097009375" y="-6.371259375" size="1.27425" layer="27">VALUE</text>
+<pad name="1" x="-2.5" y="0" drill="1.3" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1935161">
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.545709375" y="5.72786875" size="1.272859375" layer="95">&gt;NAME</text>
+<text x="-2.548159375" y="-7.64448125" size="1.27408125" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1935161" prefix="J">
+<description>Conn Terminal Blocks 2 POS 5mm Solder ST Thru-Hole 16A</description>
+<gates>
+<gate name="G$1" symbol="1935161" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHOENIX_1935161">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TERM BLOCK PCB 2POS 5.0MM GREEN"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="277-1667-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614?WT.z_cid=ref_snapeda&amp;utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=buynow"/>
+<attribute name="MF" value="Phoenix Contact"/>
+<attribute name="MP" value="1935161"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="POPULATE" value="Y"/>
@@ -3708,9 +3659,6 @@ Standard decoupling cap</description>
 </part>
 <part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="DNP">
 <attribute name="POPULATE" value="N"/>
-</part>
-<part name="CON1" library="lib" library_urn="urn:adsk.eagle:library:473707" deviceset="1776244-4" device="">
-<attribute name="POPULATE" value="Y"/>
 </part>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="330">
 <attribute name="POPULATE" value="Y"/>
@@ -3923,6 +3871,7 @@ Standard decoupling cap</description>
 <part name="U9" library="S24SE05004PDFA" deviceset="S24SE05004PDFA" device=""/>
 <part name="TP_ON/OFF" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
 <part name="TP_TRIM" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
+<part name="J1" library="1935161" deviceset="1935161" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3932,11 +3881,6 @@ Standard decoupling cap</description>
 <text x="185.42" y="180.34" size="1.778" layer="91">RPi Recommendations (Power):
 https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <text x="185.42" y="175.26" size="1.778" layer="91">Possible relay replacement G5Q</text>
-<text x="259.08" y="157.48" size="1.778" layer="91">- Need to add new connector
-- Make connections for 12V-5V Converter
-- Add filter?
-- Cap on output
-- 4 Layer board?</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="121.92" y="81.28">
@@ -4011,9 +3955,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 </instance>
 <instance part="R27" gate="G$1" x="198.12" y="167.64">
 <attribute name="POPULATE" x="198.12" y="167.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="CON1" gate="A" x="91.44" y="17.78" rot="MR0">
-<attribute name="POPULATE" x="91.44" y="17.78" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="25.4" y="177.8">
 <attribute name="POPULATE" x="25.4" y="177.8" size="1.778" layer="96" display="off"/>
@@ -4121,6 +4062,7 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="TP_TRIM" gate="G$1" x="304.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="304.8" y="81.28" size="1.778" layer="95"/>
 </instance>
+<instance part="J1" gate="G$1" x="86.36" y="17.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4307,16 +4249,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <label x="208.28" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CON1" gate="A" pin="PIN2"/>
-<wire x1="93.98" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
-<label x="96.52" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="CON1" gate="A" pin="PIN3"/>
-<wire x1="93.98" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="132.08" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <label x="127" y="127" size="1.778" layer="95"/>
@@ -4438,6 +4370,11 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <wire x1="254" y1="106.68" x2="254" y2="96.52" width="0.1524" layer="91"/>
 <label x="251.46" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
+<label x="109.22" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CLK" class="1">
 <segment>
@@ -4499,11 +4436,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
 <label x="88.9" y="172.72" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<label x="104.14" y="22.86" size="1.778" layer="95"/>
-<pinref part="CON1" gate="A" pin="PIN1"/>
-<wire x1="93.98" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C2"/>
@@ -4960,13 +4892,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <label x="139.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="CON1" gate="A" pin="PIN4"/>
-<pinref part="F9" gate="G$1" pin="P$1"/>
-<wire x1="93.98" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="L1" gate="A" pin="1"/>
@@ -4988,6 +4913,13 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <wire x1="302.26" y1="99.06" x2="304.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="99.06" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="TP_TRIM" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="F9" gate="G$1" pin="P$1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

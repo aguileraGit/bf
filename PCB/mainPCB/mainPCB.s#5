@@ -3878,14 +3878,10 @@ Standard decoupling cap</description>
 <description>RPi/ADC</description>
 <plain>
 <text x="190.5" y="78.74" size="1.778" layer="91">Recommended: CAT24C256WI-GT3</text>
-<text x="185.42" y="180.34" size="1.778" layer="91">RPi Recommendations (Power):
+<text x="185.42" y="180.34" size="1.778" layer="97">RPi Recommendations (Power):
 https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
-<text x="185.42" y="175.26" size="1.778" layer="91">Possible relay replacement G5Q</text>
-<text x="259.08" y="157.48" size="1.778" layer="91">- Need to add new connector
-- Make connections for 12V-5V Converter
-- Add filter?
-- Cap on output
-- 4 Layer board?</text>
+<text x="185.42" y="175.26" size="1.778" layer="97">Possible relay replacement G5Q</text>
+<text x="259.08" y="119.38" size="1.778" layer="97">Leave ON/OFF floating for P version</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="121.92" y="81.28">

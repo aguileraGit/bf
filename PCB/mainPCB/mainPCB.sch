@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3881,7 +3881,7 @@ Standard decoupling cap</description>
 <text x="185.42" y="180.34" size="1.778" layer="97">RPi Recommendations (Power):
 https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <text x="185.42" y="175.26" size="1.778" layer="97">Possible relay replacement G5Q</text>
-<text x="259.08" y="119.38" size="1.778" layer="97">Leave ON/OFF floating for P version</text>
+<text x="256.54" y="60.96" size="1.778" layer="97" rot="R90">Leave ON/OFF floating for P version</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="121.92" y="81.28">
@@ -4017,13 +4017,13 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="C13" gate="G$1" x="175.26" y="129.54">
 <attribute name="POPULATE" x="175.26" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C14" gate="A" x="330.2" y="106.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="331.1906" y="106.2228" size="1.778" layer="95" ratio="10" rot="SR0"/>
-<attribute name="POPULATE" x="330.2" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="C14" gate="A" x="269.24" y="132.08" smashed="yes">
+<attribute name="NAME" x="269.6972" y="133.0706" size="1.778" layer="95" ratio="10" rot="SR90"/>
+<attribute name="POPULATE" x="269.24" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C15" gate="A" x="342.9" y="106.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="343.8906" y="106.2228" size="1.778" layer="95" ratio="10" rot="SR0"/>
-<attribute name="POPULATE" x="342.9" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="C15" gate="A" x="269.24" y="144.78" smashed="yes">
+<attribute name="NAME" x="269.6972" y="145.7706" size="1.778" layer="95" ratio="10" rot="SR90"/>
+<attribute name="POPULATE" x="269.24" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="60.96" y="177.8">
 <attribute name="POPULATE" x="60.96" y="177.8" size="1.778" layer="96" display="off"/>
@@ -4052,16 +4052,16 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <instance part="F9" gate="G$1" x="101.6" y="15.24">
 <attribute name="POPULATE" x="101.6" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L1" gate="A" x="320.04" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="314.96" y="117.9322" size="1.778" layer="96" ratio="10" rot="SR180" align="bottom-right"/>
-<attribute name="NAME" x="314.96" y="119.8372" size="1.778" layer="95" ratio="10" rot="SR180" align="bottom-right"/>
+<instance part="L1" gate="A" x="264.16" y="121.92" smashed="yes" rot="R180">
+<attribute name="VALUE" x="257.9878" y="116.84" size="1.778" layer="96" ratio="10" rot="SR270" align="bottom-right"/>
+<attribute name="NAME" x="256.0828" y="116.84" size="1.778" layer="95" ratio="10" rot="SR270" align="bottom-right"/>
 </instance>
-<instance part="U9" gate="G$1" x="279.4" y="104.14" rot="MR0"/>
-<instance part="TP_ON/OFF" gate="G$1" x="307.34" y="88.9" smashed="yes">
-<attribute name="NAME" x="307.34" y="86.36" size="1.778" layer="95"/>
+<instance part="U9" gate="G$1" x="271.78" y="81.28" rot="MR270"/>
+<instance part="TP_ON/OFF" gate="G$1" x="287.02" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="289.56" y="109.22" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="TP_TRIM" gate="G$1" x="304.8" y="83.82" smashed="yes">
-<attribute name="NAME" x="304.8" y="81.28" size="1.778" layer="95"/>
+<instance part="TP_TRIM" gate="G$1" x="292.1" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="294.64" y="106.68" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="J1" gate="G$1" x="86.36" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.905709375" y="12.05213125" size="1.272859375" layer="95" rot="R180"/>
@@ -4314,13 +4314,13 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 </segment>
 <segment>
 <pinref part="C14" gate="A" pin="22"/>
-<wire x1="330.2" y1="99.06" x2="330.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="327.66" y="93.98" size="1.778" layer="95"/>
+<wire x1="276.86" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
+<label x="281.94" y="129.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="C15" gate="A" pin="22"/>
-<wire x1="342.9" y1="99.06" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
-<label x="340.36" y="93.98" size="1.778" layer="95"/>
+<wire x1="276.86" y1="144.78" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="281.94" y="142.24" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A1"/>
@@ -4364,15 +4364,15 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VIN-"/>
-<wire x1="302.26" y1="106.68" x2="312.42" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="106.68" x2="312.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="309.88" y="93.98" size="1.778" layer="95"/>
+<wire x1="269.24" y1="104.14" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="281.94" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VOUT-"/>
-<wire x1="256.54" y1="106.68" x2="254" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="254" y1="106.68" x2="254" y2="96.52" width="0.1524" layer="91"/>
-<label x="251.46" y="93.98" size="1.778" layer="95"/>
+<wire x1="269.24" y1="58.42" x2="269.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="55.88" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="281.94" y="53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -4499,8 +4499,8 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VOUT+"/>
-<wire x1="256.54" y1="109.22" x2="254" y2="109.22" width="0.1524" layer="91"/>
-<label x="254" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<wire x1="266.7" y1="58.42" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
+<label x="266.7" y="55.88" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="3_3V" class="3">
@@ -4825,14 +4825,14 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 </segment>
 <segment>
 <pinref part="L1" gate="A" pin="2"/>
-<wire x1="342.9" y1="109.22" x2="330.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="144.78" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C15" gate="A" pin="11"/>
-<wire x1="330.2" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="106.68" x2="342.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="132.08" x2="266.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C14" gate="A" pin="11"/>
-<wire x1="330.2" y1="106.68" x2="330.2" y2="109.22" width="0.1524" layer="91"/>
-<junction x="330.2" y="109.22"/>
-<label x="335.28" y="109.22" size="1.778" layer="95"/>
+<wire x1="269.24" y1="132.08" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
+<junction x="266.7" y="132.08"/>
+<label x="266.7" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="5V_RPI" class="0">
@@ -4900,22 +4900,22 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <segment>
 <pinref part="L1" gate="A" pin="1"/>
 <pinref part="U9" gate="G$1" pin="VIN+"/>
-<wire x1="314.96" y1="109.22" x2="302.26" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="116.84" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="ON/OFF"/>
-<wire x1="302.26" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="101.6" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="104.14" x2="274.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="109.22" x2="287.02" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="TP_ON/OFF" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="TRIM"/>
-<wire x1="302.26" y1="99.06" x2="304.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="99.06" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="104.14" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="106.68" x2="292.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="TP_TRIM" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4931,7 +4931,6 @@ https://github.com/raspberrypi/hats/blob/master/designguide.md</text>
 <sheet>
 <description>Relays 1-2</description>
 <plain>
-<text x="119.38" y="170.18" size="1.778" layer="91">TVS Diode</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="53.34" y="152.4">
